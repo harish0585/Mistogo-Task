@@ -70,5 +70,10 @@ export const styles = (theme) => ({
         width: "2px",
         background: "#CECCCC",
         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
-    }
+    },
+    root1: {
+        '& > *': {
+          margin: theme.spacing(1),
+        },
+      },
 })
