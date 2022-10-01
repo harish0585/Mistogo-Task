@@ -7,6 +7,7 @@ import Piechart1 from '../piechart/Piechart'
 import AddCircleIcon from '@material-ui/icons/AddCircle';
 import Table1 from '../table/Table1'
 import { Profile1 } from '../profile/Profile1'
+import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 
 const Dashboard = () => {
@@ -31,14 +32,17 @@ const Dashboard = () => {
           </div>
           
           <div style={{width:"35%"}}>
-          <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",marginTop:"5px", padding:"15px", height:"380px"}}>
+          <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",marginTop:"5px", padding:"15px", height:"400px"}}>
           <Profile1 />  
           </div>
 
 
-          <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",marginTop:"30px", padding:"15px", height:"343px"}}>
-          <div>Location</div>
-       <iframe style={{height: "300px", width: "400px"}} src="https://www.youtube.com/embed/Oy6hk6Y7VHQ?rel=0&amp;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe>
+          <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",marginTop:"30px", padding:"15px", height:"353px"}}>
+          <div style={{display: "flex", justifyContent:"space-between"}}>
+            <div>Product Video</div>
+            <div style={{color:"#556575"}}><MoreVertIcon /></div>
+          </div>
+       <iframe style={{height: "300px", width:"100%", marginTop:"5px"}} src="https://www.youtube.com/embed/Oy6hk6Y7VHQ?rel=0&amp;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe>
        </div>
           </div>
 

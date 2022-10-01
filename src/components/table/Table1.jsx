@@ -50,7 +50,7 @@ const Table1 = () => {
   return (
     <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="customized table">
-        <TableHead>
+        <TableHead style={{border:"none"}}>
           <TableRow>
             <StyledTableCell>Location</StyledTableCell>
             <StyledTableCell align="right">Views</StyledTableCell>
@@ -59,12 +59,12 @@ const Table1 = () => {
             <StyledTableCell align="right">Total</StyledTableCell>
           </TableRow>
         </TableHead>
-        <TableBody>
+        <TableBody >
           {rows.map((row) => (
             <TableRow key={row.name} style={{color:"#4D4F5C", fontSize:"14px"}}>
               <StyledTableCell component="th" scope="row">
                 {row.name}
-              </StyledTableCell>
+              </StyledTableCell >
               <StyledTableCell align="right">{row.calories}</StyledTableCell>
               <StyledTableCell align="right">{row.fat}</StyledTableCell>
               <StyledTableCell align="right">{row.carbs}</StyledTableCell>
