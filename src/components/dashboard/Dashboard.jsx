@@ -32,7 +32,7 @@ const Dashboard = () => {
           
           <div style={{width:"35%"}}>
           <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",marginTop:"5px", padding:"15px", height:"380px"}}>
-          <Profile1 />
+          <Profile1 />  
           </div>
 
 
