@@ -9,7 +9,8 @@ const Piechart1 = () => {
     
   return (
     <div>
-      <Chart type="donut" series={series} options={options} labels={labels}  />
+      <div style={{fontSize:"12px", padding:"10px", color:"#4D4F5C", marginRight:"250px"}} >Sales Distribution</div>
+      <Chart type="donut" series={series} options={options} labels={labels} />
     </div>
   )
 }

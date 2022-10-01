@@ -1,13 +1,14 @@
 import React from 'react'
-import Chart from "react-apexcharts"; 
+import Chart from "react-apexcharts";
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const Linechart1 = () => {
 
    const series = [{
-        name: 'series1',
+        name: 'Products sold',
         data: [31, 40, 28, 51, 42, 109, 100]
       }, {
-        name: 'series2',
+        name: 'Total views',
         data: [11, 32, 45, 32, 34, 52, 41]
       }]
 
@@ -35,6 +36,10 @@ const Linechart1 = () => {
 
   return (
     <div>
+      <div style={{display:"flex", justifyContent: "space-between", fontSize:"12px", padding:"10px", color:"#4D4F5C"}}>
+        <div>Statistics</div>
+        <div>Last 6 months <ExpandMoreIcon style={{color: "#C8CFD4"}} /></div>
+      </div>
       <Chart type="area" series={series} options={options} />
     </div>
   )
