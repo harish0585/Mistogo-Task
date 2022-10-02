@@ -13,7 +13,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 const Dashboard = () => {
   document.body.style.background = "#F5F7FB"
   return (
-    <div style={{background: "#F5F7FB"}}>
+    <div >
       <div style={{justifyContent: "space-between", display: "flex"}}>
       <div style={{color:"#43425D", fontSize:"24px", fontWeight:600}}>Overview</div>
       <Button style={{background: "#6763E3", color:"white", width: "160px", height: "40px", display:"flex", justifyContent:"space-around" }}>Add Funds<AddCircleIcon /></Button>
@@ -25,19 +25,19 @@ const Dashboard = () => {
         <div style={{display:"flex", justifyContent:"space-between", gap:"40px", marginTop:"25px"}}>
           <div style={{width:"65%"}}>
             <div style={{display:"flex", justifyContent:"space-between"}}>
-            <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px", width:"48%"}}><Linechart1 /></div>
-            <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px", width:"48%"}}><Piechart1 /></div>
+            <div style={{boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px", width:"48%", background:"#FFFFFF", borderRadius: "5px" }}><Linechart1 /></div>
+            <div style={{boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px", width:"48%", background:"#FFFFFF", borderRadius: "5px"}}><Piechart1 /></div>
             </div>
-            <div style={{marginTop:"30px", boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px"}}><Table1 /></div>
+            <div style={{marginTop:"30px", boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px"}}><Table1 /></div>
           </div>
           
           <div style={{width:"35%"}}>
-          <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",marginTop:"5px", padding:"15px", height:"400px"}}>
+          <div style={{boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",marginTop:"5px", padding:"15px", height:"400px", background:"#FFFFFF", borderRadius: "5px"}}>
           <Profile1 />  
           </div>
 
 
-          <div style={{boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",marginTop:"30px", padding:"15px", height:"353px"}}>
+          <div style={{boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",marginTop:"30px", padding:"15px", height:"353px", background:"#FFFFFF", borderRadius: "5px"}}>
           <div style={{display: "flex", justifyContent:"space-between"}}>
             <div>Product Video</div>
             <div style={{color:"#556575"}}><MoreVertIcon /></div>
