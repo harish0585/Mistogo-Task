@@ -36,7 +36,7 @@ const Linechart1 = () => {
 
   return (
     <div>
-      <div style={{display:"flex", justifyContent: "space-between", fontSize:"12px", padding:"10px", color:"#4D4F5C"}}>
+      <div style={{display:"flex", justifyContent: "space-between", fontSize:"12px", padding:"5px", color:"#4D4F5C"}}>
         <div>Statistics</div>
         <div>Last 6 months <ExpandMoreIcon style={{color: "#C8CFD4"}} /></div>
       </div>

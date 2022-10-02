@@ -8,8 +8,8 @@ const Piechart1 = () => {
     const labels = ['A', 'B', 'C', 'D', 'E']
     
   return (
-    <div>
-      <div style={{fontSize:"12px", padding:"10px", color:"#4D4F5C", marginRight:"250px"}} >Sales Distribution</div>
+    <div style={{height:"100%"}}>
+      <div style={{fontSize:"12px", padding:"5px", color:"#4D4F5C", display: "flex"}} >Sales Distribution</div>
       <Chart type="donut" series={series} options={options} labels={labels} />
     </div>
   )
